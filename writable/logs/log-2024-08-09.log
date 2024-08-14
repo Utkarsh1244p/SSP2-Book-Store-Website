@@ -1,0 +1,969 @@
+CRITICAL - 2024-08-09 07:18:07 --> ErrorException: Attempt to read property "errno" on bool
+[Method: GET, Route: test]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 584.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(584): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\xampp\\htdocs\\s2\\system\\Database\\MySQLi\\Connection.php', 584)
+ 2 APPPATH\Controllers\DatabaseTest.php(19): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:20:38 --> ErrorException: Attempt to read property "errno" on bool
+[Method: GET, Route: test]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 584.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(584): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\xampp\\htdocs\\s2\\system\\Database\\MySQLi\\Connection.php', 584)
+ 2 APPPATH\Controllers\DatabaseTest.php(19): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:23:21 --> ErrorException: Attempt to read property "errno" on bool
+[Method: GET, Route: test]
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 584.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(584): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "errno" on bool', 'C:\\xampp\\htdocs\\s2\\system\\Database\\MySQLi\\Connection.php', 584)
+ 2 APPPATH\Controllers\DatabaseTest.php(19): CodeIgniter\Database\MySQLi\Connection->error()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:26:41 --> Error: Class "Config\mysqli" not found
+[Method: GET, Route: test]
+in APPPATH\Config\Database.php on line 201.
+ 1 SYSTEMPATH\Config\Factories.php(235): Config\Database->__construct()
+ 2 SYSTEMPATH\Config\Factories.php(169): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Database', [])
+ 3 SYSTEMPATH\Config\Factories.php(188): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 4 SYSTEMPATH\Common.php(207): CodeIgniter\Config\Factories::get('config', 'Config\\Database')
+ 5 SYSTEMPATH\Database\Config.php(63): config('Config\\Database')
+ 6 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\Config::connect()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:27:19 --> Error: Class "Config\mysqli" not found
+[Method: GET, Route: test]
+in APPPATH\Config\Database.php on line 201.
+ 1 SYSTEMPATH\Config\Factories.php(235): Config\Database->__construct()
+ 2 SYSTEMPATH\Config\Factories.php(169): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Database', [])
+ 3 SYSTEMPATH\Config\Factories.php(188): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 4 SYSTEMPATH\Common.php(207): CodeIgniter\Config\Factories::get('config', 'Config\\Database')
+ 5 SYSTEMPATH\Database\Config.php(63): config('Config\\Database')
+ 6 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\Config::connect()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:27:44 --> ParseError: Unclosed '{' on line 11
+[Method: GET, Route: test]
+in APPPATH\Config\Database.php on line 212.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Config\\Database.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(258): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 5 SYSTEMPATH\Debug\Toolbar.php(68): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 6 SYSTEMPATH\Config\Services.php(796): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 7 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 8 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+10 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::toolbar()
+11 APPPATH\Config\Events.php(47): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+12 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:30:20 --> Error: Class "Config\mysqli" not found
+[Method: GET, Route: test]
+in APPPATH\Config\Database.php on line 201.
+ 1 SYSTEMPATH\Config\Factories.php(235): Config\Database->__construct()
+ 2 SYSTEMPATH\Config\Factories.php(169): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Database', [])
+ 3 SYSTEMPATH\Config\Factories.php(188): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 4 SYSTEMPATH\Common.php(207): CodeIgniter\Config\Factories::get('config', 'Config\\Database')
+ 5 SYSTEMPATH\Database\Config.php(63): config('Config\\Database')
+ 6 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\Config::connect()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:33:12 --> mysqli_sql_exception: Unknown database 'book_store'
+[Method: GET, Route: test]
+in APPPATH\Config\Database.php on line 201.
+ 1 APPPATH\Config\Database.php(201): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'book_store')
+ 2 SYSTEMPATH\Config\Factories.php(235): Config\Database->__construct()
+ 3 SYSTEMPATH\Config\Factories.php(169): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Database', [])
+ 4 SYSTEMPATH\Config\Factories.php(188): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 5 SYSTEMPATH\Common.php(207): CodeIgniter\Config\Factories::get('config', 'Config\\Database')
+ 6 SYSTEMPATH\Database\Config.php(63): config('Config\\Database')
+ 7 APPPATH\Controllers\DatabaseTest.php(13): CodeIgniter\Database\Config::connect()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:35:46 --> ParseError: syntax error, unexpected identifier "that"
+[Method: GET, Route: test]
+in APPPATH\Config\Database.php on line 194.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Config\\Database.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(258): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 5 SYSTEMPATH\Debug\Toolbar.php(68): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 6 SYSTEMPATH\Config\Services.php(796): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 7 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 8 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+10 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::toolbar()
+11 APPPATH\Config\Events.php(47): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+12 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+17 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 07:40:48 --> ErrorException: Attempt to read property "connect_errno" on bool
+[Method: GET, Route: test]
+in APPPATH\Controllers\DatabaseTest.php on line 15.
+ 1 APPPATH\Controllers\DatabaseTest.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "connect_errno" on bool', 'C:\\xampp\\htdocs\\s2\\app\\Controllers\\DatabaseTest.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DatabaseTest->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DatabaseTest))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 08:03:30 --> ErrorException: Undefined variable $employee
+[Method: GET, Route: employee]
+in APPPATH\Views\employee\index.php on line 28.
+ 1 APPPATH\Views\employee\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index', [], true)
+ 5 APPPATH\Controllers\EmployeeController.php(12): view('employee/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+ERROR - 2024-08-09 08:11:47 --> mysqli_sql_exception: Table 'book_store.employees' doesn't exist in C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\s2\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\s2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\s2\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\s2\app\Controllers\EmployeesController.php(12): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\s2\system\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+#8 C:\xampp\htdocs\s2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+#9 C:\xampp\htdocs\s2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\s2\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\s2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\s2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\s2\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-08-09 08:11:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'book_store.employees' doesn't exist
+[Method: GET, Route: employee]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employees`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\EmployeesController.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 08:11:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'book_store.employees' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employees`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employees`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employees`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\EmployeesController.php(12): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 08:11:47 --> [Caused by] mysqli_sql_exception: Table 'book_store.employees' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT *
+FROM `employees`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `employees`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `employees`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `employees`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\EmployeesController.php(12): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 08:12:17 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "employees/index.php"
+[Method: GET, Route: employee]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employees/index.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employees/index.php', [], true)
+ 3 APPPATH\Controllers\EmployeesController.php(14): view('employees/index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 09:53:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layout/create.php"
+[Method: GET, Route: adduser]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/create.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/create.php', null, true)
+ 3 APPPATH\Views\employee\create.php(4): CodeIgniter\View\View->include('layout/create.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\create.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/create.php', [], true)
+ 7 APPPATH\Controllers\UserController.php(21): view('employee/create.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 09:54:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/create.php"
+[Method: GET, Route: adduser]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/create.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/create.php', null, true)
+ 3 APPPATH\Views\employee\create.php(4): CodeIgniter\View\View->include('Layout/create.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\create.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/create.php', [], true)
+ 7 APPPATH\Controllers\UserController.php(21): view('employee/create.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 09:54:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/include/create.php"
+[Method: GET, Route: adduser]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/include/create.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/include/create.php', null, true)
+ 3 APPPATH\Views\employee\create.php(4): CodeIgniter\View\View->include('Layout/include/create.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\create.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/create.php', [], true)
+ 7 APPPATH\Controllers\UserController.php(21): view('employee/create.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 09:54:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/login.php"
+[Method: GET, Route: adduser]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/login.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/login.php', null, true)
+ 3 APPPATH\Views\employee\create.php(4): CodeIgniter\View\View->include('Layout/login.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\create.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/create.php', [], true)
+ 7 APPPATH\Controllers\UserController.php(21): view('employee/create.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 09:58:23 --> ErrorException: Undefined variable $data
+[Method: GET, Route: employee/create]
+in APPPATH\Controllers\EmployeesController.php on line 22.
+ 1 APPPATH\Controllers\EmployeesController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\s2\\app\\Controllers\\EmployeesController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 10:43:08 --> mysqli_sql_exception: No connection could be made because the target machine actively refused it
+[Method: POST, Route: form/submit]
+in APPPATH\Config\Database.php on line 201.
+ 1 APPPATH\Config\Database.php(201): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'book_store')
+ 2 SYSTEMPATH\Config\Factories.php(235): Config\Database->__construct()
+ 3 SYSTEMPATH\Config\Factories.php(169): CodeIgniter\Config\Factories::createInstance('config', 'Config\\Database', [])
+ 4 SYSTEMPATH\Config\Factories.php(188): CodeIgniter\Config\Factories::__callStatic('config', [])
+ 5 SYSTEMPATH\Common.php(207): CodeIgniter\Config\Factories::get('config', 'Config\\Database')
+ 6 SYSTEMPATH\Database\Config.php(63): config('Config\\Database')
+ 7 SYSTEMPATH\Model.php(155): CodeIgniter\Database\Config::connect(null)
+ 8 APPPATH\Controllers\UserController.php(17): CodeIgniter\Model->__construct()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 10:43:26 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: form/submit]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 10:44:07 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: form/submit]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-09 10:45:33 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+[Method: POST, Route: form/submit]
+in SYSTEMPATH\BaseModel.php on line 826.
+ 1 SYSTEMPATH\BaseModel.php(826): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\UserController.php(28): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-09 11:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 11:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 11:19:43 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: login]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\employee\login.php(8): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/login.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(11): view('employee/login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 11:52:57 --> ParseError: syntax error, unexpected string content "assets/admin/vendor/bootstrap-..."
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 26.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 11:56:12 --> ParseError: syntax error, unexpected identifier "assets", expecting ")"
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 22.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 11:57:50 --> ParseError: syntax error, unexpected identifier "assets", expecting ")"
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 25.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:06:33 --> ParseError: syntax error, unexpected string content "assets/admin/img/logo.png" alt..."
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 51.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:07:26 --> ParseError: syntax error, unexpected string content "assets/admin/img/messages-2.jp..."
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 180.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:08:31 --> ParseError: syntax error, unexpected string content "assets/admin/img/messages-3.jp..."
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 194.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:10:27 --> ParseError: syntax error, unexpected identifier "assets", expecting ")"
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 180.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:16:17 --> ParseError: syntax error, unexpected double-quoted string " alt=", expecting ")"
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\navbar.php on line 166.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 3 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:19:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/admin.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/admin.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/includes/admin.php', null, true)
+ 3 APPPATH\Views\Layout\admin\navbar.php(12): CodeIgniter\View\View->include('Layout/includes/admin.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 7 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:19:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/admin-link.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/admin-link.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/includes/admin-link.php', null, true)
+ 3 APPPATH\Views\Layout\admin\navbar.php(12): CodeIgniter\View\View->include('Layout/includes/admin-link.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\navbar.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 7 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:26:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/admin-side.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/admin-side.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/includes/admin-side.php', null, true)
+ 3 APPPATH\Views\Layout\frontend2.php(26): CodeIgniter\View\View->include('Layout/includes/admin-side.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\frontend2.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/frontend2.php', [], true)
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 8 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:31:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/admin-header.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/admin-header.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/includes/admin-header.php', null, true)
+ 3 APPPATH\Views\Layout\frontend2.php(26): CodeIgniter\View\View->include('Layout/includes/admin-header.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\frontend2.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/frontend2.php', [], true)
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 8 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:36:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/frontend2.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/frontend2.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/frontend2.php', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 4 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:37:38 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/admin-links.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/admin-links.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/includes/admin-links.php', null, true)
+ 3 APPPATH\Views\Layout\admin\frontend.php(12): CodeIgniter\View\View->include('Layout/includes/admin-links.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\frontend.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 8 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:37:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/admin-links.php"
+[Method: GET, Route: admin/login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/admin-links.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/includes/admin-links.php', null, true)
+ 3 APPPATH\Views\Layout\admin\frontend.php(12): CodeIgniter\View\View->include('Layout/includes/admin-links.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\frontend.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 8 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:43:59 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\frontend.php on line 29.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 4 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:44:03 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: admin/login]
+in APPPATH\Views\Layout\admin\frontend.php on line 29.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/navbar.php', [], true)
+ 4 APPPATH\Controllers\AdminController.php(11): view('Layout/admin/navbar.php')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:50:18 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/login.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/login.php', [], true)
+ 3 APPPATH\Controllers\LoginController.php(11): view('admin/login.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:57:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/admin/includes/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/admin/includes/login.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/includes/login.php', null, true)
+ 3 APPPATH\Views\admin\login.php(4): CodeIgniter\View\View->include('Layout/admin/includes/login.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\login.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/login.php', [], true)
+ 7 APPPATH\Controllers\LoginController.php(11): view('admin/login.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 12:57:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/admin/includes/login.php"
+[Method: GET, Route: login]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/admin/includes/login.php')
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/includes/login.php', null, true)
+ 3 APPPATH\Views\admin\login.php(4): CodeIgniter\View\View->include('Layout/admin/includes/login.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\login.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/login.php', [], true)
+ 7 APPPATH\Controllers\LoginController.php(11): view('admin/login.php')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 13:04:29 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: login]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\admin\login.php(6): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/login.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(11): view('admin/login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 13:04:31 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: login]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\admin\login.php(6): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/login.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(11): view('admin/login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 13:07:38 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: login]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\admin\login.php(6): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\login.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/login.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(11): view('admin/login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 13:14:33 --> ErrorException: Cannot redeclare App\Controllers\LoginController::index()
+[Method: GET, Route: login]
+in APPPATH\Controllers\LoginController.php on line 13.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-09 13:43:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 13:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 13:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 13:54:27 --> ParseError: Unclosed '{' on line 11
+[Method: POST, Route: login]
+in APPPATH\Config\Database.php on line 203.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Config\\Database.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Database')
+ 3 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(258): CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Database')
+ 4 SYSTEMPATH\Debug\Toolbar\Collectors\Database.php(75): CodeIgniter\Debug\Toolbar\Collectors\Database->getConnections()
+ 5 SYSTEMPATH\Debug\Toolbar.php(68): CodeIgniter\Debug\Toolbar\Collectors\Database->__construct()
+ 6 SYSTEMPATH\Config\Services.php(796): CodeIgniter\Debug\Toolbar->__construct(Object(Config\Toolbar))
+ 7 SYSTEMPATH\Config\BaseService.php(312): CodeIgniter\Config\Services::toolbar(Object(Config\Toolbar), false)
+ 8 SYSTEMPATH\Config\BaseService.php(251): CodeIgniter\Config\BaseService::__callStatic('toolbar', [...])
+ 9 SYSTEMPATH\Config\Services.php(791): CodeIgniter\Config\BaseService::getSharedInstance('toolbar', null)
+10 SYSTEMPATH\Config\BaseService.php(321): CodeIgniter\Config\Services::toolbar()
+11 APPPATH\Config\Events.php(47): CodeIgniter\Config\BaseService::__callStatic('toolbar', [])
+12 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+13 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:01:40 --> ParseError: syntax error, unexpected variable "$data"
+[Method: GET, Route: login]
+in APPPATH\Controllers\LoginController.php on line 22.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Controllers\\LoginController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\LoginController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\LoginController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\LoginController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:02:39 --> BadMethodCallException: Call to undefined method App\Models\EmployeeModel::userExists
+[Method: POST, Route: login]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\LoginController.php(21): CodeIgniter\Model->__call('userExists', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-09 14:06:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:06:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:19:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 14:20:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/adminfrontend.php"
+[Method: GET, Route: employee]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/adminfrontend.php')
+ 2 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/adminfrontend.php', [], true)
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 4 APPPATH\Controllers\EmployeesController.php(14): view('employee/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:24:56 --> ErrorException: unlink(C:\xampp\htdocs\s2\writable\debugbar/debugbar_1723213019.552102.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\s2\\writable\\debugbar/debugbar_1723213019.552102.json): No such file or directory', 'C:\\xampp\\htdocs\\s2\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\xampp\\htdocs\\s2\\writable\\debugbar/debugbar_1723213019.552102.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1723213495.694892', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:36:44 --> ErrorException: Undefined variable $employee
+[Method: POST, Route: login]
+in APPPATH\Views\admin\index.php on line 44.
+ 1 APPPATH\Views\admin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(25): view('admin/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->signin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:37:01 --> ErrorException: Undefined variable $employee
+[Method: POST, Route: login]
+in APPPATH\Views\admin\index.php on line 44.
+ 1 APPPATH\Views\admin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index.php', [], true)
+ 5 APPPATH\Controllers\LoginController.php(25): view('admin/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->signin()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-09 14:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-09 14:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-09 14:50:25 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: employee/create]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\employee\index.php(52): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmployeesController.php(23): view('employee/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:51:57 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: employee/create]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\employee\index.php(52): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmployeesController.php(23): view('employee/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:52:05 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: employee/create]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\employee\index.php(52): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmployeesController.php(23): view('employee/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 14:52:20 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: employee/create]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\employee\index.php(52): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmployeesController.php(23): view('employee/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-09 15:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-09 15:07:53 --> mysqli_sql_exception: Column 'first_name' cannot be null in C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\s2\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\s2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\s2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\s2\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\s2\app\Controllers\UserController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\s2\system\CodeIgniter.php(933): App\Controllers\UserController->create()
+#9 C:\xampp\htdocs\s2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\s2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\s2\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\s2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\s2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-08-09 15:07:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'first_name' cannot be null
+[Method: GET, Route: signup]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (:first_name:, :last_name:, :phone:, :email:, :address:, :pan_card_code:, :aadhar_card_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 15:07:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (:first_name:, :last_name:, :phone:, :email:, :address:, :pan_card_code:, :aadhar_card_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 15:07:53 --> [Caused by] mysqli_sql_exception: Column 'first_name' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (:first_name:, :last_name:, :phone:, :email:, :address:, :pan_card_code:, :aadhar_card_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-09 15:09:31 --> ErrorException: unlink(C:\xampp\htdocs\s2\writable\debugbar/debugbar_1723216062.062198.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\s2\\writable\\debugbar/debugbar_1723216062.062198.json): No such file or directory', 'C:\\xampp\\htdocs\\s2\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\xampp\\htdocs\\s2\\writable\\debugbar/debugbar_1723216062.062198.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1723216170.936876', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

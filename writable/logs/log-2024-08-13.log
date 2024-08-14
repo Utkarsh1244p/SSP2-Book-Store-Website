@@ -1,0 +1,1286 @@
+INFO - 2024-08-13 12:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:38:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:42:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:43:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:44:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:52:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 12:52:55 --> ErrorException: Undefined variable $employee
+[Method: POST, Route: send]
+in APPPATH\Views\employee\index.php on line 27.
+ 1 APPPATH\Views\employee\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmailController.php(15): view('employee/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-13 12:52:55 --> ErrorException: Undefined variable $employee
+[Method: POST, Route: send]
+in APPPATH\Views\employee\index.php on line 27.
+ 1 APPPATH\Views\employee\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmailController.php(15): view('employee/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-13 12:52:55 --> ErrorException: Undefined variable $employee
+[Method: POST, Route: send]
+in APPPATH\Views\employee\index.php on line 27.
+ 1 APPPATH\Views\employee\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmailController.php(15): view('employee/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-13 12:52:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 12:56:23 --> ErrorException: Undefined variable $employee
+[Method: GET, Route: send]
+in APPPATH\Views\employee\index.php on line 27.
+ 1 APPPATH\Views\employee\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\employee\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/index.php', [], true)
+ 5 APPPATH\Controllers\EmailController.php(15): view('employee/index.php')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-13 12:57:09 --> ErrorException: Undefined variable $employee
+[Method: GET, Route: send]
+in APPPATH\Views\admin\index.php on line 35.
+ 1 APPPATH\Views\admin\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\EmailController.php(15): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-13 12:57:14 --> ErrorException: Undefined variable $employee
+[Method: GET, Route: send]
+in APPPATH\Views\admin\index.php on line 35.
+ 1 APPPATH\Views\admin\index.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $employee', 'C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index', [], true)
+ 5 APPPATH\Controllers\EmailController.php(15): view('admin/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-13 12:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 12:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 13:06:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contact.php"
+[Method: POST, Route: send]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH\Controllers\EmailController.php(59): view('contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-13 13:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:09:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:12:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:15:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:17:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 13:28:29 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "contact.php"
+[Method: POST, Route: send]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('contact', [], true)
+ 3 APPPATH\Controllers\EmailController.php(57): view('contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->sendEmail()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-13 13:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:34:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:38:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:46:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:51:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 13:55:27 --> ErrorException: Undefined variable $users
+[Method: POST, Route: send]
+in APPPATH\Controllers\EmailController.php on line 57.
+ 1 APPPATH\Controllers\EmailController.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $users', 'C:\\xampp\\htdocs\\s2\\app\\Controllers\\EmailController.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->sendEmail()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-13 13:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 13:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:34:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:41:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-13 15:56:08 --> mysqli_sql_exception: Table 'book_store.contacts' doesn't exist in C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\s2\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\s2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\s2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\s2\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\s2\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\s2\app\Controllers\EmailController.php(78): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\s2\system\CodeIgniter.php(933): App\Controllers\EmailController->send()
+#10 C:\xampp\htdocs\s2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+#11 C:\xampp\htdocs\s2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\s2\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\s2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\s2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 C:\xampp\htdocs\s2\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#16 {main}
+CRITICAL - 2024-08-13 15:56:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'book_store.contacts' doesn't exist
+[Method: POST, Route: send]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (:name:, :email:, :subject:, :message:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\EmailController.php(78): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-13 15:56:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'book_store.contacts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (\'varsha\', \'varsha@gmail.com\', \'Subject\', \'hello hi\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (\'varsha\', \'varsha@gmail.com\', \'Subject\', \'hello hi\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (:name:, :email:, :subject:, :message:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\EmailController.php(78): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+CRITICAL - 2024-08-13 15:56:08 --> [Caused by] mysqli_sql_exception: Table 'book_store.contacts' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (\'varsha\', \'varsha@gmail.com\', \'Subject\', \'hello hi\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (\'varsha\', \'varsha@gmail.com\', \'Subject\', \'hello hi\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (\'varsha\', \'varsha@gmail.com\', \'Subject\', \'hello hi\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `contacts` (`name`, `email`, `subject`, `message`) VALUES (:name:, :email:, :subject:, :message:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\EmailController.php(78): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmailController->send()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmailController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\s2\\public\\index.php')
+INFO - 2024-08-13 15:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 15:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:06:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 16:07:51 --> ParseError: syntax error, unexpected identifier "POST", expecting "," or ";"
+[Method: GET, Route: contact]
+in APPPATH\Views\employee\contact.php on line 23.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('employee/contact', [], true)
+ 3 APPPATH\Controllers\Home.php(14): view('employee/contact')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->contact()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 16:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:10:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-13 16:19:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:19:52 --> 220 smtp.gmail.com ESMTP d9443c01a7336-201cd14c9cbsm15453505ad.97 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-201cd14c9cbsm15453505ad.97 - gsmtp
+
+INFO - 2024-08-13 16:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:19:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-13 16:19:59 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:19:59 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-710e58bd3bfsm5890082b3a.89 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-710e58bd3bfsm5890082b3a.89 - gsmtp
+
+INFO - 2024-08-13 16:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:20:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-13 16:20:26 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:20:26 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-710e5a562bbsm5929019b3a.111 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-710e5a562bbsm5929019b3a.111 - gsmtp
+
+INFO - 2024-08-13 16:20:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 16:22:06 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: email]
+in APPPATH\Controllers\EmailController.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Controllers\\EmailController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmailController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmailController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\EmailController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-13 16:22:17 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:22:17 --> 220 smtp.gmail.com ESMTP d9443c01a7336-201cd14e700sm15447435ad.119 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-201cd14e700sm15447435ad.119 - gsmtp
+
+CRITICAL - 2024-08-13 16:23:19 --> ParseError: syntax error, unexpected token ";", expecting ")"
+[Method: GET, Route: email]
+in APPPATH\Controllers\EmailController.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Controllers\\EmailController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmailController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmailController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\EmailController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-13 16:26:39 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:26:39 --> 220 smtp.gmail.com ESMTP 41be03b00d2f7-7c697a53bdasm1651822a12.63 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7c697a53bdasm1651822a12.63 - gsmtp
+
+ERROR - 2024-08-13 16:26:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:26:40 --> 220 smtp.gmail.com ESMTP 41be03b00d2f7-7c697a53bdasm1651822a12.63 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7c697a53bdasm1651822a12.63 - gsmtp
+
+Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 41be03b00d2f7-7c697a53bdasm1651822a12.63 - gsmtp
+
+ERROR - 2024-08-13 16:32:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:32:43 --> 220 smtp.gmail.com ESMTP d9443c01a7336-201cd1cfd62sm15514055ad.287 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-201cd1cfd62sm15514055ad.287 - gsmtp
+
+ERROR - 2024-08-13 16:36:02 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:36:02 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-710e5a8b508sm6138541b3a.177 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-710e5a8b508sm6138541b3a.177 - gsmtp
+
+ERROR - 2024-08-13 16:38:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 16:38:40 --> 220 smtp.gmail.com ESMTP 98e67ed59e1d1-2d1fd021b91sm7586232a91.56 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-2d1fd021b91sm7586232a91.56 - gsmtp
+
+INFO - 2024-08-13 16:50:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 16:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 17:01:47 --> ErrorException: unlink(C:\xampp\htdocs\s2\writable\debugbar/debugbar_1723568437.085180.json): No such file or directory
+[Method: GET, Route: /]
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 82.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\s2\\writable\\debugbar/debugbar_1723568437.085180.json): No such file or directory', 'C:\\xampp\\htdocs\\s2\\system\\Debug\\Toolbar\\Collectors\\History.php', 82)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(82): unlink('C:\\xampp\\htdocs\\s2\\writable\\debugbar/debugbar_1723568437.085180.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(518): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1723568506.044860', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(497): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(155): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 17:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 17:26:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/include/about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/include/about.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/include/about', [], true)
+ 3 APPPATH\Controllers\Home.php(19): view('Layout/include/about')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-13 17:29:31 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Layout/includes/about.php"
+[Method: GET, Route: about]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Layout/includes/about.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/includes/about', [], true)
+ 3 APPPATH\Controllers\Home.php(19): view('Layout/includes/about')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->about()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-08-13 17:40:08 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-08-13 17:40:08 --> 220 smtp.gmail.com ESMTP d2e1a72fcca58-711e3b21bf3sm3539707b3a.85 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2402:e280:3d6e:92d:6d05:ebf6:32e4:4152]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d2e1a72fcca58-711e3b21bf3sm3539707b3a.85 - gsmtp
+
+INFO - 2024-08-13 17:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:50:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 17:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:00:58 --> ParseError: syntax error, unexpected variable "$employee"
+[Method: GET, Route: employee]
+in APPPATH\Controllers\EmployeesController.php on line 14.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Controllers\\EmployeesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeesController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\EmployeesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:11:27 --> ErrorException: Attempt to read property "first_name" on array
+[Method: POST, Route: login]
+in APPPATH\Controllers\LoginController.php on line 28.
+ 1 APPPATH\Controllers\LoginController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "first_name" on array', 'C:\\xampp\\htdocs\\s2\\app\\Controllers\\LoginController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\LoginController->signin()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\LoginController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:13:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:14:00 --> ErrorException: Undefined variable $username
+[Method: GET, Route: employee]
+in APPPATH\Views\Layout\admin\admin-header.php on line 172.
+ 1 APPPATH\Views\Layout\admin\admin-header.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\admin-header.php', 172)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\admin-header.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/admin-header.php', null, true)
+ 5 APPPATH\Views\Layout\admin\frontend.php(47): CodeIgniter\View\View->include('Layout/admin/admin-header.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\frontend.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 9 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index.php', [], true)
+10 APPPATH\Controllers\EmployeesController.php(15): view('admin/index.php', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:14:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:15:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:15:15 --> ParseError: syntax error, unexpected identifier "session"
+[Method: GET, Route: employee]
+in APPPATH\Views\Layout\admin\admin-header.php on line 1.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/admin-header.php', null, true)
+ 3 APPPATH\Views\Layout\admin\frontend.php(47): CodeIgniter\View\View->include('Layout/admin/admin-header.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\frontend.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 7 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index.php', [], true)
+ 8 APPPATH\Controllers\EmployeesController.php(15): view('admin/index.php', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:15:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:16:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:16:44 --> Error: Undefined constant "hello"
+[Method: GET, Route: employee]
+in APPPATH\Views\Layout\admin\admin-header.php on line 1.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/admin-header.php', null, true)
+ 4 APPPATH\Views\Layout\admin\frontend.php(47): CodeIgniter\View\View->include('Layout/admin/admin-header.php')
+ 5 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\frontend.php')
+ 6 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('Layout/admin/frontend.php', [], true)
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/index.php', [], true)
+ 9 APPPATH\Controllers\EmployeesController.php(15): view('admin/index.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:17:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:21:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:24:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:24:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:25:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:26:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:26:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:27:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:28:42 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/UserProfile.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/UserProfile.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/UserProfile.php', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(15): view('admin/UserProfile.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:28:44 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/UserProfile.php"
+[Method: GET, Route: profile]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/UserProfile.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/UserProfile.php', [], true)
+ 3 APPPATH\Controllers\ProfileController.php(15): view('admin/UserProfile.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:31:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:35:13 --> ParseError: syntax error, unexpected token ".", expecting end of file
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 3 APPPATH\Views\admin\userprofile.php(7): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/UserProfile.php', [], true)
+ 7 APPPATH\Controllers\ProfileController.php(15): view('admin/UserProfile.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:35:33 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(7): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/UserProfile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(15): view('admin/UserProfile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:35:54 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(7): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(15): view('admin/userprofile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:36:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:36:34 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(7): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(15): view('admin/userprofile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:37:10 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(7): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(15): view('admin/userprofile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:38:14 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('Layout/admin/userprofile.php', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('Layout/admin/userprofile.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:39:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:39:07 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 67.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 67)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(8): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(15): view('admin/userprofile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:39:26 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\admin\userprofile.php on line 1.
+ 1 APPPATH\Views\admin\userprofile.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin/userprofile.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:39:45 --> ErrorException: Undefined variable $profile
+[Method: GET, Route: profile]
+in APPPATH\Views\admin\userprofile.php on line 1.
+ 1 APPPATH\Views\admin\userprofile.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $profile', 'C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php', 1)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 5 APPPATH\Controllers\ProfileController.php(15): view('admin/userprofile.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:43:51 --> ParseError: syntax error, unexpected token "<", expecting end of file
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 72.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 3 APPPATH\Views\admin\userprofile.php(8): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 7 APPPATH\Controllers\ProfileController.php(18): view('admin/userprofile.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:46:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:46:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:46:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:49:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:50:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 18:52:46 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 22.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 3 APPPATH\Views\admin\userprofile.php(8): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 7 APPPATH\Controllers\ProfileController.php(18): view('admin/userprofile.php', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 18:53:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:59:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 18:59:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 19:00:34 --> ParseError: syntax error, unexpected token "public"
+[Method: GET, Route: employee]
+in APPPATH\Controllers\EmployeesController.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Controllers\\EmployeesController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\EmployeesController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\EmployeesController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\EmployeesController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 19:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 19:02:44 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 22.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(8): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(18): view('admin/userprofile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 19:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 19:03:55 --> TypeError: App\Controllers\EmployeesController::index(): Return value must be of type string, CodeIgniter\HTTP\RedirectResponse returned
+[Method: GET, Route: employee]
+in APPPATH\Controllers\EmployeesController.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EmployeesController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeesController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 19:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:06:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:06:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-13 19:06:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: profile]
+in APPPATH\Views\Layout\admin\userprofile.php on line 22.
+ 1 APPPATH\Views\Layout\admin\userprofile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\Layout\\admin\\userprofile.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('Layout/admin/userprofile.php', null, true)
+ 5 APPPATH\Views\admin\userprofile.php(8): CodeIgniter\View\View->include('Layout/admin/userprofile.php')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\s2\\app\\Views\\admin\\userprofile.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('admin/userprofile.php', [], true)
+ 9 APPPATH\Controllers\ProfileController.php(18): view('admin/userprofile.php', [...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ProfileController->index()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 19:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-13 19:09:40 --> mysqli_sql_exception: Column 'address' cannot be null in C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\s2\system\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\s2\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\s2\system\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\s2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\s2\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\s2\system\Model.php(802): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\s2\app\Controllers\UserController.php(30): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\s2\system\CodeIgniter.php(933): App\Controllers\UserController->create()
+#9 C:\xampp\htdocs\s2\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\s2\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\s2\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\s2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\s2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-08-13 19:09:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'address' cannot be null
+[Method: POST, Route: form/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (:first_name:, :last_name:, :phone:, :email:, :address:, :pan_card_code:, :aadhar_card_code:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-13 19:09:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'address' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (\'Sonal\', \'kapoor\', \'8765678987\', \'sonam@gmail.com\', NULL, \'ABCDE4567H\', \'2224 2222 2222\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (\'Sonal\', \'kapoor\', \'8765678987\', \'sonam@gmail.com\', NULL, \'ABCDE4567H\', \'2224 2222 2222\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (:first_name:, :last_name:, :phone:, :email:, :address:, :pan_card_code:, :aadhar_card_code:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-13 19:09:40 --> [Caused by] mysqli_sql_exception: Column 'address' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (\'Sonal\', \'kapoor\', \'8765678987\', \'sonam@gmail.com\', NULL, \'ABCDE4567H\', \'2224 2222 2222\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (\'Sonal\', \'kapoor\', \'8765678987\', \'sonam@gmail.com\', NULL, \'ABCDE4567H\', \'2224 2222 2222\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (\'Sonal\', \'kapoor\', \'8765678987\', \'sonam@gmail.com\', NULL, \'ABCDE4567H\', \'2224 2222 2222\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employee` (`first_name`, `last_name`, `phone`, `email`, `address`, `pan_card_code`, `aadhar_card_code`) VALUES (:first_name:, :last_name:, :phone:, :email:, :address:, :pan_card_code:, :aadhar_card_code:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(802): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(30): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-13 19:11:47 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: adduser]
+in APPPATH\Controllers\UserController.php on line 30.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\s2\\app\\Controllers\\UserController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\UserController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\UserController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\UserController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-13 19:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-13 19:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
